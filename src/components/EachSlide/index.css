@@ -1,0 +1,44 @@
+.slide-list-item {
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+.active-styling {
+  background-color: #dbeafe;
+}
+
+.slide-number {
+  font-size: 18px;
+  margin: 10px 12px 0px 15px;
+}
+
+.slide-tab {
+  font-family: 'Bree Serif';
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 130px;
+  margin: 12px 25px 12px 10px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+
+.tab-heading {
+  font-family: 'Bree Serif';
+  font-size: 25px;
+  font-weight: 500;
+  color: #0967d2;
+  margin: 0px 0px 15px 0px;
+}
+
+.tab-description {
+  font-family: 'Bree Serif';
+  font-size: 25px;
+  font-weight: 500;
+  color: #334155;
+  margin: 0px;
+}
